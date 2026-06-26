@@ -1,4 +1,3 @@
-cat > ~/Desktop/oliveirapp-project/src/app/page.tsx << 'ENDOFFILE'
 "use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
