@@ -78,7 +78,7 @@ function AppLayout({
           alt="OLIVEIRApp"
           width={140}
           height={40}
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "contain", mixBlendMode: "screen" as const }}
         />
         <button
           onClick={onGoHome}
@@ -273,7 +273,7 @@ export default function Home() {
             alt="OLIVEIRApp"
             width={220}
             height={60}
-            style={{ objectFit: "contain" }}
+            style={{ objectFit: "contain", mixBlendMode: "screen" as const }}
           />
           <button
             onClick={() => setScreen("app")}
